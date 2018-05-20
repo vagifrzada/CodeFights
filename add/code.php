@@ -1,6 +1,6 @@
 <?php
 
-function add($param1, $param2)
+function add(int $param1, int $param2) : int
 {
     return $param1 + $param2;
 }

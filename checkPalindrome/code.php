@@ -2,5 +2,5 @@
 
 function checkPalindrome(string $inputString) : bool
 {
-    return strrev($inputString) == $inputString;
+    return strrev($inputString) === $inputString;
 }

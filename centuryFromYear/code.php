@@ -1,6 +1,6 @@
 <?php
 
-function centuryFromYear($year) 
+function centuryFromYear(int $year) 
 {
    return ceil($year / 100);
 }
