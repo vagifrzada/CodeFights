@@ -1,6 +1,3 @@
-# Challenges and Algorithms from CodeFights
-[Send me a friend request for coding battle ;)](https://codefights.com/profile/vagifrzada)
-
 #### Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
 
 # Example
