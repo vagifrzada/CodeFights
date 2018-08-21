@@ -5,7 +5,7 @@
  * @param string $s2
  * @return int
  */
-function commonCharacterCount(string $s1, string $s2)
+function commonCharacterCount(string $s1, string $s2): int
 {
     $out = [];
 
