@@ -1,6 +1,10 @@
 <?php
 
-function adjacentElementsProduct(array $inputArray) : int
+/**
+ * @param array $inputArray
+ * @return int
+ */
+function adjacentElementsProduct(array $inputArray): int
 {
    $numbers = [];
    
@@ -10,8 +14,3 @@ function adjacentElementsProduct(array $inputArray) : int
 
    return max($numbers);
 }
-
-
-var_dump(
-    adjacentElementsProduct([-23, 4, -3, 8, -12])
-);

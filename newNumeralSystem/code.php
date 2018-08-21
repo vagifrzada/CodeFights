@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @param string $number
+ * @return array
+ */
 function newNumeralSystem(string $number): array
 {
     $out = [];

@@ -1,6 +1,10 @@
 <?php
 
-function checkPalindrome(string $inputString) : bool
+/**
+ * @param string $inputString
+ * @return bool
+ */
+function checkPalindrome(string $inputString): bool
 {
     return strrev($inputString) === $inputString;
 }

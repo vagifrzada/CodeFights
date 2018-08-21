@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @param array $matrix
+ * @return int
+ */
 function matrixElementsSum(array $matrix): int
 {
     $notSuitable = [];
@@ -9,7 +13,7 @@ function matrixElementsSum(array $matrix): int
         for ($x = 0; $x < count($matrix[0]); $x++) {
             if ($matrix[$i][$x] === 0) {
                 $notSuitable[] = $x;
-            } elseif (! in_array($x, $notSuitable)) {
+            } elseif (! in_array($matrix[$i][$x], $notSuitable)) {
                 $total += $matrix[$i][$x];
             }
         }

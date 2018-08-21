@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @param array $statues
+ * @return int
+ */
 function makeArrayConsecutive2(array $statues): int
 {
     sort($statues);
