@@ -19,7 +19,3 @@ function alternatingSums(array $a): array
 
     return [$firstTeam, $secondTeam];
 }
-
-print_r(
-    alternatingSums([50, 60, 60, 45, 70])
-);
